@@ -13,6 +13,11 @@ header {
     padding: 1.2rem 0;
 }
 
+span {
+    color:#186561;
+    font-weight: bold;
+}
+
 nav ul {
     list-style: none;
     text-align: center;
@@ -28,22 +33,23 @@ nav ul li a {
     text-decoration: none;
 }
 
-li{
+li {
     list-style: none;
 }
+
 section {
     padding: 5rem;
     text-align: center;
 }
 
-img{
+img {
     border-top-left-radius: 20%;
     border-bottom-right-radius: 2%;
     box-shadow: 28px 28px 8px gray;
     max-width: 100%;
 }
 
-.block{
+.block {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -51,15 +57,16 @@ img{
 }
 
 
-.project img{
+.project img {
     max-width: 50%;
     margin-bottom: 20px;
 }
 
-.project a{
+.project a {
     font-size: 20px;
 }
-.info{
+
+.info {
     max-width: 800px;
     text-align: left;
     font-size: 20px;
@@ -228,8 +235,8 @@ footer {
     background: #092f2d;
     transform: translateY(-3px);
 }
-ё
-#contactForm button:active {
+
+ё #contactForm button:active {
     background: #092f2d;
     transform: translateY(1px);
 }
@@ -242,14 +249,16 @@ footer {
 }
 
 @media (max-width: 768px) {
-    .container{
+    .container {
         padding: 0 10px;
     }
+
     nav ul li {
         display: block;
         margin: 10px 0;
     }
 }
+
 @media (max-width: 768px) {
     .block {
         flex-direction: column;
@@ -264,7 +273,7 @@ footer {
         font-size: 18px;
         text-align: center;
     }
-}   
+}
 
 @media (max-width: 768px) {
 
@@ -338,6 +347,7 @@ a:focus {
         font-size: 1.5rem;
     }
 }
+
 @media (max-width: 768px) {
     img {
         max-width: 100%;
@@ -348,6 +358,7 @@ a:focus {
         width: 100%;
     }
 }
+
 @media (max-width: 768px) {
     .skills-list {
         gap: 10px;
